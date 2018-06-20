@@ -1,0 +1,31 @@
+{
+  "name": "simple-sentiment",
+  "version": "1.0.0",
+  "description": "Super Simple Realtime sentiment analysis, using NodeJS, Twitter Streaming API, &amp;  `sentiment` (AFINN-165 wordlist + emoji support)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trakout/simple-sentiment.git"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis",
+    "simple",
+    "nodejs",
+    "twitter"
+  ],
+  "author": "Travis N",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/trakout/simple-sentiment/issues"
+  },
+  "homepage": "https://github.com/trakout/simple-sentiment#readme",
+  "dependencies": {
+    "sentiment": "^5.0.1",
+    "twitter-stream-api": "^0.5.2"
+  }
+}
